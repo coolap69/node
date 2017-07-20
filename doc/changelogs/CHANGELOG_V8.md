@@ -6,6 +6,7 @@
 </tr>
 <tr>
 <td>
+<a href="#8.2.1">8.2.1</a><br/>
 <a href="#8.2.0">8.2.0</a><br/>
 <a href="#8.1.4">8.1.4</a><br/>
 <a href="#8.1.3">8.1.3</a><br/>
@@ -26,6 +27,17 @@
   * [0.10.x](CHANGELOG_V010.md)
   * [io.js](CHANGELOG_IOJS.md)
   * [Archive](CHANGELOG_ARCHIVE.md)
+
+<a id="8.2.0"></a>
+## 2017-07-20, Version 8.2.1 (Current), @fishrock123
+
+### Notable changes
+
+* **zlib**: streams no longer attempt to process data when destroyed.
+
+### Commits
+
+* [[`6fce1a314e`](https://github.com/nodejs/node/commit/6fce1a314e)] - **zlib**: check if the stream is destroyed before push (Matteo Collina) [#14330](https://github.com/nodejs/node/pull/14330)
 
 <a id="8.2.0"></a>
 ## 2017-07-19, Version 8.2.0 (Current), @fishrock123
